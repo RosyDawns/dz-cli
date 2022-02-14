@@ -1,0 +1,33 @@
+{
+  "name": "dz-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/cli.js",
+  "bin": {
+    "dz": "./bin/bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "crazycattle",
+    "email": "2359590507@qq.com"
+  },
+  "keywords": [
+    "dz-cli",
+    "dz"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "cross-spawn": "^7.0.3",
+    "ejs": "^3.1.6",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1"
+  }
+}
